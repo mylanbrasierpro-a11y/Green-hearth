@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "DMSans regular";
+    src: url(../fonts/static/DMSans-Regular.ttf);
+    
+}
+
+*{
+     box-sizing: border-box
+}
+
+body{
+    font-family: "DMSans regular";
+}
+
+.green{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.green img {
+    width: 10%;
+}
+
+.green a{
+    background: linear-gradient(0.25turn, #074F3B, #417632, #6F972A);
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    position:relative;
+    height: 20%;
+    color: white;
+}
+.nav-header{
+    margin: 1.50rem;
+}
+.nav-header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+
