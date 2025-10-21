@@ -10,6 +10,11 @@
 
 body{
     font-family: "DMSans regular";
+    background-color: #FBF3E7;
+    margin: 0;
+}
+header{
+    background-color: white;
 }
 
 .green{
@@ -33,9 +38,11 @@ body{
     height: 20%;
     color: white;
 }
+
 .nav-header{
     margin: 1.50rem;
 }
+
 .nav-header ul {
     display: flex;
     flex-direction: row;
@@ -50,7 +57,52 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 10px;
-    
 }
 
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+
+.agir{
+    display: flex;
+    flex-direction: column;
+}
+
+.agir a{
+    background-color: #054D3B;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+}
+.hero img{
+    width: 50%;
+    box-shadow:12px 12px 2px 1px #054D3B  ;
+}
+
+.cards{
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project{
+    text-align: left;
+}
