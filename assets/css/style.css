@@ -82,7 +82,7 @@ header{
 }
 .hero img{
     width: 50%;
-    box-shadow:12px 12px 2px 1px #054D3B  ;
+    box-shadow:20px 20px 0px 0px #054D3B  ;
 }
 
 .cards{
@@ -106,3 +106,131 @@ header{
 .project{
     text-align: left;
 }
+
+.mission-container a{
+    background-color: #054D3B;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.background-mission{
+    background-image: url(../img/farmer-bg.jpg);
+    background-size: cover;
+    padding: 1rem;
+}
+.mission-container{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.mission-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.gauche{
+    width: 70%;
+}
+.gauche li{
+    list-style-type: circle;
+    color: #003b14;
+}
+
+.mission-img{
+    width: 30%;
+}
+.warning{
+    width: 40%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.warning-img img{
+    width:100%;
+    border-radius: 8px;
+}
+
+.forest{
+    width: 40%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.forest-img img{
+    width: 40%;
+}
+.conservation{
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.conservation-im img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.dechets{
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.dechets-img img{
+    width: 40%;
+    object-fit: cover;  
+}
+.energie{
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom:100px ;
+    text-align: left;
+    position: relative;
+    margin: 1%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.energie-img img{
+    width: 40%;
+    object-fit: cover;  
+}
+.actually-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(300px, 1fr));
+}
+
